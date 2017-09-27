@@ -37,6 +37,8 @@
         theSeasonText.firstChild.nodeValue = objectIndex.text;
 
         appliedClass = this.id;
+
+        console.log(this.id);
       }
 
       theImages.forEach(function(element, index) {
