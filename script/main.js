@@ -24,8 +24,11 @@
           // add an image source
           newSubImg.src = "images/" + objectIndex.images[index];
 
+          //add an index number ot the thumbnail for array
+          newSubImg.dataset.index = index;
+
           // add some event handling
-          newSubImg.addEventListener('click', popLightbox, false);
+          newSubImg.addEventListener('click', function() { popLightbox(index, objectIndex); }, false);
 
           // append it to the container
           subImages.appendChild(newSubImg);
@@ -50,12 +53,39 @@
         element.addEventListener('click', changeElements, false);
       });
 
-      function popLightbox() {
+      function popLightbox(currentIndex, currentObject) {
         //debugger;
+        window.scrollTo(0, 0);
+        document.body.style.overflow = 'hidden';
 
         // turn on the lightbox
         let lightbox = document.querySelector('.lightbox');
         lightbox.style.display = 'block';
+
+        let lightboxImg = lightbox.querySelector('img');
+        let lightboxClose = lightbox.querySelector('.close-lightbox');
+        let lightboxDesc = lightbox.querySelector('p');
+
+        lightboxImg.src = "images/" + currentObject.images[currentIndex];
+        lightboxDesc.innerHTML = currentObject.imageDescription[currentIndex];
+
+        lightboxImg.style.margin = 'auto';
+        lightboxImg.style.marginTop = '100px';
+        lightboxImg.style.width = '';
+        lightboxImg.style.height = '';
+
+        lightboxDesc.style.textAlign = 'center';
+        lightboxDesc.style.fontFamily = 'Mystery Quest';
+
+        lightboxClose.addEventListener('click', closeLightbox, false);
+      }
+
+      function closeLightbox() {
+        //debugger;
+        //reset all lightbox content, close lightbox  (not necessarily in that order)
+        let lightbox = document.querySelector('.lightbox');
+        lightbox.style.display = 'none';
+        document.body.style.overflow = 'visible';
       }
 
       // initialize the app

@@ -7,6 +7,11 @@ var dynamicContent = {
 			images : [
 				"spring_1.jpg",
 				"spring_2.jpg"
+			],
+
+			imageDescription : [
+				'This is some pretty butterflies',
+				'This is some kind of mutant chicken',
 			]
 		},
 
@@ -18,6 +23,11 @@ var dynamicContent = {
 			images : [
 				"summer_1.jpg",
 				"summer_2.jpg"
+			],
+
+			imageDescription : [
+				'This is some rainbow chairs',
+				"This is some kind of puppy. I don't know. I don't like dogs.",
 			]
 		},
 
@@ -29,6 +39,11 @@ var dynamicContent = {
 			images : [
 				"autumn_1.jpg",
 				"autumn_2.jpg"
+			],
+
+			imageDescription : [
+				'This is a lovely autumn trail.',
+				'This is some fucking pumpkins and flowers',
 			]
 		},
 
@@ -40,6 +55,11 @@ var dynamicContent = {
 			images : [
 				"winter_1.jpg",
 				"winter_2.jpg"
+			],
+
+			imageDescription : [
+				'This is a winter wonderland',
+				'This is John Snowman, Esquire',
 			]
 		}
 	};
