@@ -23,6 +23,10 @@
           newSubImg.classList.add('thumb');
           // add an image source
           newSubImg.src = "images/" + objectIndex.images[index];
+
+          // add some event handling
+          newSubImg.addEventListener('click', popLightbox, false);
+
           // append it to the container
           subImages.appendChild(newSubImg);
         });
@@ -45,6 +49,14 @@
         //loop through and do stuff to each element at the top of the page
         element.addEventListener('click', changeElements, false);
       });
+
+      function popLightbox() {
+        //debugger;
+
+        // turn on the lightbox
+        let lightbox = document.querySelector('.lightbox');
+        lightbox.style.display = 'block';
+      }
 
       // initialize the app
       // theSubhead.firstChild.nodeValue = dynamicContent['spring'].headline;
