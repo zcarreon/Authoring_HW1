@@ -71,8 +71,8 @@
 
         lightboxImg.style.margin = 'auto';
         lightboxImg.style.marginTop = '100px';
-        lightboxImg.style.width = '';
-        lightboxImg.style.height = '';
+        lightboxImg.style.height = '30%';
+        lightboxImg.style.width = 'auto';
 
         lightboxDesc.style.textAlign = 'center';
         lightboxDesc.style.fontFamily = 'Mystery Quest';

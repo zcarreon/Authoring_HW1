@@ -6,12 +6,16 @@ var dynamicContent = {
 
 			images : [
 				"spring_1.jpg",
-				"spring_2.jpg"
+				"spring_2.jpg",
+				"spring_3.jpg",
+				"spring_4.jpg"
 			],
 
 			imageDescription : [
-				'This is some pretty butterflies',
-				'This is some kind of mutant chicken',
+				'Butterflies',
+				'Duckling',
+				'Birbs',
+				'Cherry Blossoms'
 			]
 		},
 
@@ -22,12 +26,16 @@ var dynamicContent = {
 
 			images : [
 				"summer_1.jpg",
-				"summer_2.jpg"
+				"summer_2.jpg",
+				"summer_3.jpg",
+				"summer_4.jpg"
 			],
 
 			imageDescription : [
-				'This is some rainbow chairs',
-				"This is some kind of puppy. I don't know. I don't like dogs.",
+				'Rainbow Lawn Chairs',
+				"Puppy in a Hammock",
+				"Watermelon Treats",
+				"Beach"
 			]
 		},
 
@@ -38,12 +46,16 @@ var dynamicContent = {
 
 			images : [
 				"autumn_1.jpg",
-				"autumn_2.jpg"
+				"autumn_2.jpg",
+				"autumn_3.jpg",
+				"autumn_4.jpg"
 			],
 
 			imageDescription : [
-				'This is a lovely autumn trail.',
-				'This is some fucking pumpkins and flowers',
+				'Autumn Forest Trail.',
+				'Pumpkins and Sunflowers',
+				"Fox",
+				"Baby in a pile of Leaves"
 			]
 		},
 
@@ -54,12 +66,16 @@ var dynamicContent = {
 
 			images : [
 				"winter_1.jpg",
-				"winter_2.jpg"
+				"winter_2.jpg",
+				"winter_3.jpg",
+				"winter_4.jpg"
 			],
 
 			imageDescription : [
-				'This is a winter wonderland',
-				'This is John Snowman, Esquire',
+				'Winter Wonderland',
+				'John Snowman, Esquire',
+				'Horse in Snow',
+				'Snowflake'
 			]
 		}
 	};
