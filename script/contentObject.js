@@ -8,14 +8,18 @@ var dynamicContent = {
 				"spring_1.jpg",
 				"spring_2.jpg",
 				"spring_3.jpg",
-				"spring_4.jpg"
+				"spring_4.jpg",
+				"spring_5.jpg",
+				"spring_6.jpg"
 			],
 
 			imageDescription : [
 				'Butterflies',
 				'Duckling',
 				'Birbs',
-				'Cherry Blossoms'
+				'Cherry Blossoms',
+				'Flowers',
+				'Spring Forest Trail'
 			]
 		},
 
@@ -28,14 +32,18 @@ var dynamicContent = {
 				"summer_1.jpg",
 				"summer_2.jpg",
 				"summer_3.jpg",
-				"summer_4.jpg"
+				"summer_4.jpg",
+				"summer_5.jpg",
+				"summer_6.jpg"
 			],
 
 			imageDescription : [
 				'Rainbow Lawn Chairs',
 				"Puppy in a Hammock",
 				"Watermelon Treats",
-				"Beach"
+				"Beach",
+				"Coconut",
+				"Wheat Field"
 			]
 		},
 
@@ -48,14 +56,18 @@ var dynamicContent = {
 				"autumn_1.jpg",
 				"autumn_2.jpg",
 				"autumn_3.jpg",
-				"autumn_4.jpg"
+				"autumn_4.jpg",
+				"autumn_5.jpg",
+				"autumn_6.jpg"
 			],
 
 			imageDescription : [
 				'Autumn Forest Trail.',
 				'Pumpkins and Sunflowers',
 				"Fox",
-				"Baby in a pile of Leaves"
+				"Baby in a pile of Leaves",
+				"Leaves",
+				"Bridge"
 			]
 		},
 
@@ -68,14 +80,18 @@ var dynamicContent = {
 				"winter_1.jpg",
 				"winter_2.jpg",
 				"winter_3.jpg",
-				"winter_4.jpg"
+				"winter_4.jpg",
+				"winter_5.jpg",
+				"winter_6.jpg"
 			],
 
 			imageDescription : [
 				'Winter Wonderland',
 				'John Snowman, Esquire',
 				'Horse in Snow',
-				'Snowflake'
+				'Snowflake',
+				'Snowy Bench',
+				'Igloo'
 			]
 		}
 	};
