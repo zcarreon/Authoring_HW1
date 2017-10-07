@@ -84,8 +84,16 @@
         //debugger;
         //reset all lightbox content, close lightbox  (not necessarily in that order)
         let lightbox = document.querySelector('.lightbox');
+
         lightbox.style.display = 'none';
         document.body.style.overflow = 'visible';
+
+        let lightboxImg = lightbox.querySelector('img');
+        let lightboxDesc = lightbox.querySelector('p');
+
+        lightboxImg.src = " ";
+        lightboxDesc.innerHTML = " ";
+
       }
 
       // initialize the app
